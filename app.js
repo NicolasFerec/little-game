@@ -1,4 +1,7 @@
-var app = require('http').createServer();
+var app = require('http').createServer(function(req, res) {
+  res.writeHead(200);
+  res.end();
+});
 var io = require('socket.io')(app);
 
 app.listen(process.env.PORT || 8080);
