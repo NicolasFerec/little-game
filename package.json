@@ -1,0 +1,9 @@
+{
+  "name": "little-game-server",
+  "version": "0.0.1",
+  "description": "Little game server",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
