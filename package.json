@@ -1,8 +1,21 @@
 {
   "name": "little-game-server",
   "version": "0.0.1",
-  "description": "Little game server",
+  "description": "",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasFerec/little-game-server.git"
+  },
+  "author": "Nicolas Ferec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasFerec/little-game-server/issues"
+  },
+  "homepage": "https://github.com/NicolasFerec/little-game-server#readme",
   "dependencies": {
     "socket.io": "^2.0.4"
   }
