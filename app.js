@@ -1,7 +1,7 @@
 var app = require('http').createServer();
 var io = require('socket.io')(app);
 
-app.listen(8000);
+app.listen(process.env.PORT || 8080);
 
 var world = {
 	map: [
