@@ -100,13 +100,13 @@ Player.prototype.setName = function(name){
 };
 
 Player.prototype.moveUp = function(){
-	if(this.y > 0)
-		this.y--;
+	if(this.y > 1)
+		this.y-=2;
 };
 
 Player.prototype.moveDown = function(){
-	if(this.y < map.length - 1)
-		this.y++;
+	if(this.y < map.length - 2)
+		this.y+=2;
 };
 
 Player.prototype.moveLeft = function(){
